@@ -25,6 +25,7 @@
         color: white;
         &:hover {
           color: $theme-success;
+          opacity: 0.8;
           outline: none;
         }
         &:active,
@@ -46,12 +47,13 @@
       border-color: $theme-success;
       background-color: $theme-success;
     }
+    float: right;
   }
 }
 @media(min-width:992px) {
   #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
@@ -79,5 +81,16 @@
     .navbar-brand {
       font-size: 1.5em;
     }
+  }
+}
+
+#mainNav {
+  background-color: rgb(184, 190, 197);
+  text-align: center;
+  .container {
+    padding: 0em;
+  }
+  .navbar-nav {
+    margin: auto;
   }
 }

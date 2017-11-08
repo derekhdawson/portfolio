@@ -1,9 +1,8 @@
 .container {
-    width: 70%;
+    width: 67%;
     clear: both;
     .experience-example {
         clear: both;
-        margin-bottom: 8em;
         .experience-example-header {
             .experience-subtitle {
                 font-weight: bold;
@@ -58,7 +57,6 @@
             }
         }
         #nomad-demo {
-            margin-top: 8em;
             p {
                 font-weight: bold;
                 font-size: 1.8em;
@@ -86,5 +84,23 @@
                 text-align: center;
             }
         }
+    }
+    #nomad-experience {
+        margin-bottom: 10em;
+    }
+    hr {
+        border-color: black;
+    }
+}
+
+#about {
+    p {
+        width: 15em;
+    }
+    .container {
+        width: 90%;
+    }
+    hr {
+        border-color: white;
     }
 }

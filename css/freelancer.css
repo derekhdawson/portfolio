@@ -47,21 +47,23 @@ hr.star-primary:after {
   position: relative;
   top: -.8em;
   display: inline-block;
-  padding: 0 0.25em;
-  content: '\f005'; }
+  padding: 0 0.25em; }
 
 hr.star-light {
   border-color: white; }
+
+hr.star-dark {
+  border-color: black; }
 
 hr.star-light:after {
   color: white;
   background-color: #003366; }
 
 hr.star-primary {
-  border-color: #000000; }
+  border-color: #f5f5f5; }
 
 hr.star-primary:after {
-  color: #000000;
+  color: #f5f5f5;
   background-color: white; }
 
 .img-centered {
@@ -105,7 +107,7 @@ section.success {
   font-weight: 700;
   text-transform: uppercase;
   border: none;
-  background: #000000; }
+  background: #f5f5f5; }
   #mainNav a:focus {
     outline: none; }
   #mainNav .navbar-brand {
@@ -119,6 +121,7 @@ section.success {
       color: white; }
       #mainNav .navbar-nav li.nav-item a.nav-link:hover {
         color: #003366;
+        opacity: 0.8;
         outline: none; }
       #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
         color: white; }
@@ -127,7 +130,8 @@ section.success {
     padding: 11px;
     text-transform: uppercase;
     color: white;
-    border-color: white; }
+    border-color: white;
+    float: right; }
     #mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:hover {
       color: white;
       border-color: #003366;
@@ -135,8 +139,8 @@ section.success {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s; }
@@ -157,6 +161,14 @@ section.success {
     padding-bottom: 10px; }
     #mainNav.navbar-shrink .navbar-brand {
       font-size: 1.5em; } }
+
+#mainNav {
+  background-color: #b8bec5;
+  text-align: center; }
+  #mainNav .container {
+    padding: 0em; }
+  #mainNav .navbar-nav {
+    margin: auto; }
 
 header.masthead {
   padding-top: 100px;
@@ -182,16 +194,22 @@ header.masthead {
     padding-top: 200px;
     padding-bottom: 100px; }
     header.masthead .intro-text .name {
-      font-size: 4.75em; }
+      font-size: 3em; }
     header.masthead .intro-text .skills {
-      font-size: 1.75em; } }
+      font-size: 1.5em; } }
+
+header.masthead {
+  background-image: url("../img/background0image-4.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  header.masthead hr {
+    border-color: white; }
 
 .container {
-  width: 70%;
+  width: 67%;
   clear: both; }
   .container .experience-example {
-    clear: both;
-    margin-bottom: 8em; }
+    clear: both; }
     .container .experience-example .experience-example-header .experience-subtitle {
       font-weight: bold;
       font-size: 1.8em; }
@@ -229,17 +247,15 @@ header.masthead {
       margin-right: 20px; }
     .container .experience-example #nomad-description span {
       font-size: 1.2em; }
-    .container .experience-example #nomad-demo {
-      margin-top: 8em; }
-      .container .experience-example #nomad-demo p {
-        font-weight: bold;
-        font-size: 1.8em; }
-      .container .experience-example #nomad-demo video {
-        height: 25em;
-        float: right; }
-      .container .experience-example #nomad-demo #nomad-demo-items {
-        margin-top: 12em;
-        overflow: hidden; }
+    .container .experience-example #nomad-demo p {
+      font-weight: bold;
+      font-size: 1.8em; }
+    .container .experience-example #nomad-demo video {
+      height: 25em;
+      float: right; }
+    .container .experience-example #nomad-demo #nomad-demo-items {
+      margin-top: 12em;
+      overflow: hidden; }
     .container .experience-example #nomad-image-slider {
       float: left;
       width: 28em;
@@ -251,6 +267,19 @@ header.masthead {
         font-size: 1.3em;
         font-weight: 200;
         text-align: center; }
+  .container #nomad-experience {
+    margin-bottom: 10em; }
+  .container hr {
+    border-color: black; }
+
+#about p {
+  width: 15em; }
+
+#about .container {
+  width: 90%; }
+
+#about hr {
+  border-color: white; }
 
 #portfolio .portfolio-item {
   right: 0;
@@ -337,7 +366,7 @@ header.masthead {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-    background-color: #000000; }
+    background-color: #f5f5f5; }
     .portfolio-modal .close-modal .lr .rl {
       /* Safari and Chrome */
       z-index: 1052;
@@ -347,7 +376,7 @@ header.masthead {
       -webkit-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
       transform: rotate(90deg);
-      background-color: #000000; }
+      background-color: #f5f5f5; }
 
 .portfolio-modal .modal-backdrop {
   display: none;
@@ -405,12 +434,12 @@ footer {
     margin-bottom: 30px; }
   footer .footer-above {
     padding-top: 50px;
-    background-color: #000000; }
+    background-color: #f5f5f5; }
   footer .footer-col {
     margin-bottom: 50px; }
   footer .footer-below {
     padding: 25px 0;
-    background-color: black; }
+    background-color: whitesmoke; }
 
 .btn-outline {
   font-size: 20px;
@@ -427,28 +456,28 @@ footer {
 .btn-primary {
   font-weight: 700;
   color: white;
-  border-color: #000000;
-  background-color: #000000; }
+  border-color: #f5f5f5;
+  background-color: #f5f5f5; }
   .btn-primary.focus, .btn-primary:focus {
     color: white;
-    border-color: black;
-    background-color: black; }
+    border-color: #b5b5b5;
+    background-color: gainsboro; }
   .btn-primary:hover {
     color: white;
-    border-color: black;
-    background-color: black; }
+    border-color: #d6d6d6;
+    background-color: gainsboro; }
   .btn-primary.active, .btn-primary:active,
   .open > .btn-primary.dropdown-toggle {
     color: white;
-    border-color: black;
-    background-color: black; }
+    border-color: #d6d6d6;
+    background-color: gainsboro; }
     .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover,
     .open > .btn-primary.dropdown-toggle.focus,
     .open > .btn-primary.dropdown-toggle:focus,
     .open > .btn-primary.dropdown-toggle:hover {
       color: white;
-      border-color: black;
-      background-color: black; }
+      border-color: #b5b5b5;
+      background-color: #cacaca; }
   .btn-primary.active, .btn-primary:active,
   .open > .btn-primary.dropdown-toggle {
     background-image: none; }
@@ -456,10 +485,10 @@ footer {
   fieldset[disabled] .btn-primary.focus,
   fieldset[disabled] .btn-primary:focus,
   fieldset[disabled] .btn-primary:hover {
-    border-color: #000000;
-    background-color: #000000; }
+    border-color: #f5f5f5;
+    background-color: #f5f5f5; }
   .btn-primary .badge {
-    color: #000000;
+    color: #f5f5f5;
     background-color: white; }
 
 .btn-success {
