@@ -1,0 +1,94 @@
+.container {
+    width: 70%;
+    clear: both;
+    .experience-example {
+        clear: both;
+        .experience-example-header {
+            .experience-subtitle {
+                font-weight: bold;
+                font-size: 1.8em;
+            }
+            .company-logo {
+                height: 3em;
+                margin-bottom: 1em;
+            }
+            .time-worked {
+                vertical-align: bottom;
+                margin-bottom: 0em;
+            }
+            .title-devide {
+                background-color: black;
+            }
+        }
+        .experience-description {
+            font-size: 1em;
+        }
+        .technologies {
+            clear: both;
+            margin-bottom: 10em;
+            span {
+                display: inline-block;
+                font-size: 1.3em;
+                background-color: #e0e0e0;
+                color: #181818;
+                padding: 6px 12px 6px 12px;
+                border-radius: 8px;
+                margin: 4px;
+            }
+            span:hover {
+                opacity: 0.8;
+            }
+        }
+        #porch-summary {
+            margin-top: 1.5em;
+            #porch-team-photo {
+                height: 20em;
+                margin: 0 1em 1em 0;
+                float: left;
+            }
+        }
+        #nomad-description {
+            img {
+                height: 15em;
+                float: left;
+                margin-right: 20px;
+            }
+            span {
+                font-size: 1.2em;
+            }
+        }
+        #nomad-demo {
+            margin-top: 8em;
+            p {
+                font-weight: bold;
+                font-size: 1.8em;
+            }
+            video {
+                height: 25em;
+                float: right;
+            }
+            #nomad-demo-items {
+                margin-top: 12em;
+                overflow: hidden;
+            }
+        }
+        #nomad-image-slider {
+            float: left;
+            width: 28em;
+            vertical-align: top;
+            margin: 0px;
+            .carousel-item  {
+                padding: 0em 1em 0em 1em;
+            }
+            p {
+                font-size: 1.3em;
+                font-weight: 200;
+                text-align: center;
+            }
+        }
+    }
+}
+
+#portfolio {
+    padding: 10em;
+}

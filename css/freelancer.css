@@ -58,10 +58,10 @@ hr.star-light:after {
   background-color: #003366; }
 
 hr.star-primary {
-  border-color: #2C3E50; }
+  border-color: #000000; }
 
 hr.star-primary:after {
-  color: #2C3E50;
+  color: #000000;
   background-color: white; }
 
 .img-centered {
@@ -105,7 +105,7 @@ section.success {
   font-weight: 700;
   text-transform: uppercase;
   border: none;
-  background: #2C3E50; }
+  background: #000000; }
   #mainNav a:focus {
     outline: none; }
   #mainNav .navbar-brand {
@@ -185,6 +185,75 @@ header.masthead {
       font-size: 4.75em; }
     header.masthead .intro-text .skills {
       font-size: 1.75em; } }
+
+.container {
+  width: 70%;
+  clear: both; }
+  .container .experience-example {
+    clear: both; }
+    .container .experience-example .experience-example-header .experience-subtitle {
+      font-weight: bold;
+      font-size: 1.8em; }
+    .container .experience-example .experience-example-header .company-logo {
+      height: 3em;
+      margin-bottom: 1em; }
+    .container .experience-example .experience-example-header .time-worked {
+      vertical-align: bottom;
+      margin-bottom: 0em; }
+    .container .experience-example .experience-example-header .title-devide {
+      background-color: black; }
+    .container .experience-example .experience-description {
+      font-size: 1em; }
+    .container .experience-example .technologies {
+      clear: both;
+      margin-bottom: 10em; }
+      .container .experience-example .technologies span {
+        display: inline-block;
+        font-size: 1.3em;
+        background-color: #e0e0e0;
+        color: #181818;
+        padding: 6px 12px 6px 12px;
+        border-radius: 8px;
+        margin: 4px; }
+      .container .experience-example .technologies span:hover {
+        opacity: 0.8; }
+    .container .experience-example #porch-summary {
+      margin-top: 1.5em; }
+      .container .experience-example #porch-summary #porch-team-photo {
+        height: 20em;
+        margin: 0 1em 1em 0;
+        float: left; }
+    .container .experience-example #nomad-description img {
+      height: 15em;
+      float: left;
+      margin-right: 20px; }
+    .container .experience-example #nomad-description span {
+      font-size: 1.2em; }
+    .container .experience-example #nomad-demo {
+      margin-top: 8em; }
+      .container .experience-example #nomad-demo p {
+        font-weight: bold;
+        font-size: 1.8em; }
+      .container .experience-example #nomad-demo video {
+        height: 25em;
+        float: right; }
+      .container .experience-example #nomad-demo #nomad-demo-items {
+        margin-top: 12em;
+        overflow: hidden; }
+    .container .experience-example #nomad-image-slider {
+      float: left;
+      width: 28em;
+      vertical-align: top;
+      margin: 0px; }
+      .container .experience-example #nomad-image-slider .carousel-item {
+        padding: 0em 1em 0em 1em; }
+      .container .experience-example #nomad-image-slider p {
+        font-size: 1.3em;
+        font-weight: 200;
+        text-align: center; }
+
+#portfolio {
+  padding: 10em; }
 
 #portfolio .portfolio-item {
   right: 0;
@@ -271,7 +340,7 @@ header.masthead {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-    background-color: #2C3E50; }
+    background-color: #000000; }
     .portfolio-modal .close-modal .lr .rl {
       /* Safari and Chrome */
       z-index: 1052;
@@ -281,7 +350,7 @@ header.masthead {
       -webkit-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
       transform: rotate(90deg);
-      background-color: #2C3E50; }
+      background-color: #000000; }
 
 .portfolio-modal .modal-backdrop {
   display: none;
@@ -339,12 +408,12 @@ footer {
     margin-bottom: 30px; }
   footer .footer-above {
     padding-top: 50px;
-    background-color: #2C3E50; }
+    background-color: #000000; }
   footer .footer-col {
     margin-bottom: 50px; }
   footer .footer-below {
     padding: 25px 0;
-    background-color: #2c3e50; }
+    background-color: black; }
 
 .btn-outline {
   font-size: 20px;
@@ -361,28 +430,28 @@ footer {
 .btn-primary {
   font-weight: 700;
   color: white;
-  border-color: #2C3E50;
-  background-color: #2C3E50; }
+  border-color: #000000;
+  background-color: #000000; }
   .btn-primary.focus, .btn-primary:focus {
     color: white;
     border-color: black;
-    background-color: #1a252f; }
+    background-color: black; }
   .btn-primary:hover {
     color: white;
-    border-color: #161f29;
-    background-color: #1a252f; }
+    border-color: black;
+    background-color: black; }
   .btn-primary.active, .btn-primary:active,
   .open > .btn-primary.dropdown-toggle {
     color: white;
-    border-color: #161f29;
-    background-color: #1a252f; }
+    border-color: black;
+    background-color: black; }
     .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover,
     .open > .btn-primary.dropdown-toggle.focus,
     .open > .btn-primary.dropdown-toggle:focus,
     .open > .btn-primary.dropdown-toggle:hover {
       color: white;
       border-color: black;
-      background-color: #0d1318; }
+      background-color: black; }
   .btn-primary.active, .btn-primary:active,
   .open > .btn-primary.dropdown-toggle {
     background-image: none; }
@@ -390,10 +459,10 @@ footer {
   fieldset[disabled] .btn-primary.focus,
   fieldset[disabled] .btn-primary:focus,
   fieldset[disabled] .btn-primary:hover {
-    border-color: #2C3E50;
-    background-color: #2C3E50; }
+    border-color: #000000;
+    background-color: #000000; }
   .btn-primary .badge {
-    color: #2C3E50;
+    color: #000000;
     background-color: white; }
 
 .btn-success {
