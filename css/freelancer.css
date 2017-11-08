@@ -190,7 +190,8 @@ header.masthead {
   width: 70%;
   clear: both; }
   .container .experience-example {
-    clear: both; }
+    clear: both;
+    margin-bottom: 8em; }
     .container .experience-example .experience-example-header .experience-subtitle {
       font-weight: bold;
       font-size: 1.8em; }
@@ -205,8 +206,7 @@ header.masthead {
     .container .experience-example .experience-description {
       font-size: 1em; }
     .container .experience-example .technologies {
-      clear: both;
-      margin-bottom: 10em; }
+      clear: both; }
       .container .experience-example .technologies span {
         display: inline-block;
         font-size: 1.3em;
@@ -251,9 +251,6 @@ header.masthead {
         font-size: 1.3em;
         font-weight: 200;
         text-align: center; }
-
-#portfolio {
-  padding: 10em; }
 
 #portfolio .portfolio-item {
   right: 0;

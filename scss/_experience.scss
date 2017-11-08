@@ -3,6 +3,7 @@
     clear: both;
     .experience-example {
         clear: both;
+        margin-bottom: 8em;
         .experience-example-header {
             .experience-subtitle {
                 font-weight: bold;
@@ -25,7 +26,6 @@
         }
         .technologies {
             clear: both;
-            margin-bottom: 10em;
             span {
                 display: inline-block;
                 font-size: 1.3em;
@@ -87,8 +87,4 @@
             }
         }
     }
-}
-
-#portfolio {
-    padding: 10em;
 }
